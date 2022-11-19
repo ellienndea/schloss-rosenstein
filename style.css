@@ -2,6 +2,7 @@
     position: relative;
     box-sizing: border-box;
     margin: 0;
+    margin-top: 1rem;
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: purple;
@@ -15,9 +16,27 @@ main {
     padding: 2rem;
     background: radial-gradient(white 5%, pink 100%);
 }
+#chest {
+    max-width: 90vw;
+}
 p {
     max-width: 72ch;
     text-align: center;
     font-size: 1.7rem;
     margin-top: 1rem;
+}
+.code-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.code-input {
+    width: 3rem;
+    height: 4rem;
+    margin: 1rem;
+    border: 4px solid rgb(31, 4, 31);
+    border-radius: .3rem;
+    padding: .7rem;
+    font-size: 2rem;
+    font-weight: bold;
 }
