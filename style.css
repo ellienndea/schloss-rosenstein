@@ -16,6 +16,9 @@ main {
     padding: 2rem;
     background: radial-gradient(white 5%, pink 100%);
 }
+#rose {
+    max-width: 200px;
+}
 #chest {
     max-width: 90vw;
 }
