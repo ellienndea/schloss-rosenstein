@@ -2,7 +2,6 @@
     position: relative;
     box-sizing: border-box;
     margin: 0;
-    margin-top: 1rem;
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: purple;
@@ -13,9 +12,11 @@ main {
     align-items: center;
     flex-direction: column;
     min-height: 100vh;
-    margin-top: 0;
     padding: 2rem;
     background: radial-gradient(white 5%, pink 100%);
+}
+main > * {
+    margin-top: 1rem;
 }
 #rose {
     max-width: 200px;
