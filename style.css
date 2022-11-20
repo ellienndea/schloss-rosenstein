@@ -22,7 +22,8 @@ main > * {
     max-width: 200px;
 }
 #chest {
-    max-width: 90vw;
+    /* max-width: 90vw; */
+    max-height: 30vh;
 }
 p {
     max-width: 72ch;
@@ -32,16 +33,38 @@ p {
 }
 .code-container {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
 }
-.code-input {
-    width: 3rem;
-    height: 4rem;
+#code-input, #send-btn {
+    width: 12rem;
+    height: 3rem;
     margin: 1rem;
-    border: 4px solid rgb(31, 4, 31);
+    border: 2px solid purple;
     border-radius: .3rem;
-    padding: .7rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: bold;
+    text-align: center;
+}
+#send-btn {
+    background-color: hotpink;
+    color: aliceblue;
+    border-color: hotpink;
+    transition: all 0.25s;
+}
+
+@media (hover:hover){
+    #send-btn:hover {
+        background-color: rgb(252, 167, 209);
+        color: rgb(149, 38, 149);
+        border-color: rgb(149, 38, 149);
+        box-shadow: 0 0 1rem hotpink;
+    }
+}
+#send-btn:active {
+    background-color: pink;
+    color: purple;
+    border-color: purple;
+    box-shadow: 0 0 1rem hotpink;
+    font-size: 1.45rem;
 }

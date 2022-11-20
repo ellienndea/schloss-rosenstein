@@ -43,11 +43,9 @@
           </svg>
         <p>Mit dem richtigen Code kommst Du an Dein Lieblingsrezept.</p>
         <div class="code-container">
-            <input class="code-input" type="text" maxlength="1" name="first" id="first">
-            <input class="code-input" type="text" maxlength="1" name="second" id="second">
-            <input class="code-input" type="text" maxlength="1" name="third" id="third">
-            <input class="code-input" type="text" maxlength="1" name="fourth" id="fourth">
-            <input class="code-input" type="text" maxlength="1" name="fifth" id="fifth">
+            <label for="code-input">Gib hier Deinen 5-stelligen Code ein.</label>
+            <input type="text" name="code-input" id="code-input" placeholder="*****" maxlength="5">
+            <input type="submit" value="Senden" id="send-btn">
         </div>
         <script src="app.js"></script>
     </main>
