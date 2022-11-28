@@ -22,7 +22,6 @@ main > * {
     max-width: 200px;
 }
 #chest {
-    /* max-width: 90vw; */
     max-height: 30vh;
 }
 p {
@@ -46,6 +45,8 @@ p {
     font-weight: bold;
     text-align: center;
 }
+
+
 #send-btn {
     background-color: hotpink;
     color: aliceblue;
