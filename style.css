@@ -14,6 +14,7 @@ main {
     min-height: 100vh;
     padding: 2rem;
     background: radial-gradient(white 5%, pink 100%);
+    text-align: center;
 }
 main > * {
     margin-top: 1rem;
@@ -23,6 +24,7 @@ main > * {
 }
 #chest {
     max-height: 30vh;
+    max-width: 90vw;
 }
 p {
     max-width: 72ch;
@@ -68,4 +70,23 @@ p {
     border-color: purple;
     box-shadow: 0 0 1rem hotpink;
     font-size: 1.45rem;
+}
+#backdrop {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(255, 105, 180, 0.7);
+}
+#solution {
+    width: 80vw;
+    max-width: 70rem;
+    max-height: 80vh;
+    position: absolute;
+    top: 10vh;
+    left: 10vw;
+}
+.hidden {
+    display: none;
 }
